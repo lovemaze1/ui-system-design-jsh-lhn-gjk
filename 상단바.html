@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,800;0,900;1,800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<style type="text/css">
+		
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+
+
+
+		}
+
+		.header {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 800;
+			position: fixed;
+			border: 2px solid black;
+			background-color: white;
+			display: flex;
+			align-items:center;
+    		margin-right: auto;
+    		margin-left: auto;
+    		flex-wrap: nowrap;
+    		width: 100vw;
+    		justify-content: space-between;
+			background: white;
+    		
+
+
+		}
+
+		.header img {
+			height: 3.3vw;
+			float: left;
+		}
+
+
+		.header ul{
+			list-style: none;
+			display: flex;
+		}
+
+
+		.header li {
+			
+			border-left:2px solid black; 
+			padding-left: 20px;
+			
+		}
+
+		.header a{
+			color: inherit;
+			font-size: 1em;
+			text-decoration: none;
+			line-height: 3.38vw;
+
+
+		}
+
+		.header li:hover{
+			background-color: #2340AD;
+			color: white;
+
+		}
+
+		.header li:not(:last-child) {
+			padding-right: 20px;
+		}
+
+		.header li:nth-child(6) {
+			border-right: 2px solid rgb(0, 0, 0);
+			padding-right: 1.04vw; 
+			
+
+		}
+
+		.header-svg  {
+			margin-top: 5.2vw;
+			margin-left: 5.72vw;
+		
+		}
+
+		.cont{
+			
+			height: 100vw;
+			padding-top:3.9vw;
+		}
+
+		.logo{
+			margin-left: 15.2vw;
+			padding-left: 20px;
+			padding-right: 20px;
+			border-left: 2px solid black ;
+			border-right:2px solid black ;
+		}
+
+		.guest{
+			margin-right: 15.7vw;
+		}
+
+
+	</style>
+</head>
+<body>
+	
+	
+	<header class="header">
+		
+			<a href="#"><img class="logo" src="LOGO (1).svg"></a>	
+			<ul>
+				<li><a href="#">About</li>
+				<li><a href="#">Product design</a></li>
+				<li><a href="#">UI/UX design</a></li>
+				<li ><a href="#">Epilogue</a></li>
+				<li class="guest"><a href="#">Guest book</a></li>
+				
+			</ul>
+
+			
+			
+	</header>
+
+	
+</body>
+</html>
